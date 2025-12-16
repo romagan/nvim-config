@@ -4,7 +4,7 @@ return {
     vim.g.emmet_include_languages = {
       html = {'html', 'vue', 'jsx', 'tsx'},
       css = {'css', 'scss', 'sass', 'less'},
-      js = {'javascript', 'typescript'},
+      js = {'javascript', 'typescript', 'vue'},
       json = {'json'},
     }
 

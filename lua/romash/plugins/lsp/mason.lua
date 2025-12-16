@@ -4,6 +4,7 @@ return {
     opts = {
       -- list of servers for mason to install
       ensure_installed = {
+        "vue_ls",
         "ts_ls",
         "html",
         "cssls",
@@ -29,8 +30,7 @@ return {
             },
           },
         },
-      },
-      "neovim/nvim-lspconfig",
+      }
     },
   },
   {
