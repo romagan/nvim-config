@@ -4,8 +4,8 @@ return {
     opts = {
       -- list of servers for mason to install
       ensure_installed = {
-        "vue_ls",
         "ts_ls",
+        "vue_ls",
         "html",
         "cssls",
         "tailwindcss",
