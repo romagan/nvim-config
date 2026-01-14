@@ -21,8 +21,4 @@ keymap.set("n", "<s-Tab>", ":BufferLineCyclePrev<CR>")
 keymap.set("n", "<leader>x", ":BufferLinePickClose<CR>")
 keymap.set("n", "<c-x>", ":BufferLineCloseOthers<CR>")
 
---Commentary
-keymap.set("v", "<c-_>", ':Commentary<CR>', {noremap = true, silent = true, desc = "Comment line"})
-keymap.set("n", "<c-_>", ':Commentary<CR>', {noremap = true, silent = true, desc = "Comment line"})
-
 keymap.set("n", "<leader>s", ':w<CR>', {desc = "Save file"})
